@@ -1,0 +1,136 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: futura, sans-serif, Helvetica, sans-serif;
+  padding: 20px;
+  background-image: url('macedonia.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  
+
+
+}
+
+/* Header/Blog Title */
+.header {
+  text-align: center;
+
+ 
+
+}
+#two{
+
+font-size: 30px;
+
+}
+
+
+
+h3  {
+  font-size: 40px;
+  color: black;
+  
+  }
+p {
+  font-size: 20px;
+  color :black;
+}
+h4  {
+  font-size: 50px;
+  color :black;
+  
+  }
+
+nav{ 
+	width: 100%;
+	height: 60px;
+  background-color: #91b0bd;
+  padding: 10px;
+
+}
+
+nav a, nav h3{
+ float:left;
+	margin: 0px;
+	line-height: 40px;
+	margin-left: 1em;
+  margin-right: 1em;
+  font-size: 20px;
+	color: #FFFFFF;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.image {
+  width: 100%;
+  padding: 10px;
+  border-radius: 150px;
+}
+
+/* Add a card effect for articles */
+.card {
+background-color: white;opacity:0.7;;
+   padding: 20px;
+   margin-top: 20px;
+   height: 600px;
+   border-radius: 10px;
+}
+
+.cardbottom {
+
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card2 {
+background-color: white;
+  padding: 15px;
+  margin-top: 20px;
+  height: 600px;
+  border-radius: 10px;
+
+}
+
+  
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Bottom */
+.bottom {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
